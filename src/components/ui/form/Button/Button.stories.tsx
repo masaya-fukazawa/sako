@@ -17,10 +17,12 @@ Default.args = {
 
 export const Primary = Template.bind({})
 Primary.args = {
-  color: 'primary'
+  color: 'primary',
+  size: 's'
 }
 
 export const Secondary = Template.bind({})
 Secondary.args = {
-  color: 'secondary'
+  color: 'secondary',
+  size: 'l'
 }

@@ -7,6 +7,7 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
     "postinstall": "typesync --ignoredeps=dev && yarn check --integrity || yarn install --ignore-scripts && yarn-deduplicate"
   },
   "dependencies": {
@@ -36,6 +37,7 @@
     "autoprefixer": "^10.4.2",
     "babel-jest": "^27.4.6",
     "babel-loader": "^8.2.3",
+    "chromatic": "^6.5.3",
     "cpoo": "1.2.0",
     "cypress": "^9.3.1",
     "depcheck": "^1.4.3",
