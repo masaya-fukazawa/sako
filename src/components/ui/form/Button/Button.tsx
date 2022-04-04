@@ -23,8 +23,8 @@ export const Button: FC<Props> = ({
 const baseClassNames = 'py-sm px-md rounded-md border-solid shadow-lg text-bold border hover:opacity-75'
 
 const sizeClassNames: Record<Size, string> = {
-  s: 'w-24',
-  m: 'w-32',
+  s: 'w-32',
+  m: 'w-40',
   l: 'w-64',
   full: 'w-full'
 }
